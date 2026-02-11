@@ -12,4 +12,8 @@ dependencies = [
 ]
 
 [tool.pytest.ini_options]
-testpaths = ["tests", "."]
+testpaths = ["tests"]
+
+[tool.pyright]
+venvPath = "."
+venv = ".venv"
